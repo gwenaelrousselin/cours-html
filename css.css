@@ -1,15 +1,29 @@
-ul{
-    background : red
-}
-li{
-    background : yellow
-}
 body{
     font-family: sans-serif;
 }
-h1,
-h2,
-h3,
-h4 { 
+h1, h2, h3, h4 { 
     font-family: serif;
 } 
+section {
+    background-color: rgb(4, 49, 34);
+}
+p, h2 {
+    color: white;
+}
+.center {
+    text-align: center;
+}
+.container {
+    height: 40vh;
+    background-color: rgb(95, 95, 238);
+    width: 25%;
+    text-align: center;
+    border-radius: 15px;
+    border: rgb(18, 45, 124) 5px solid;
+
+}
+.colone {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
